@@ -1,0 +1,77 @@
+/* src/components/MotionArtEffect.css */
+
+.container {
+  font-family: 'Arial, sans-serif';
+  color: #ffffff;
+  background-color: #1e1e1e;
+  padding: 20px;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffd700;
+}
+
+.button {
+  background-color: #ffd700;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #e5c100;
+}
+
+.content {
+  margin-top: 50px;
+}
+
+.title {
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.gradient-text {
+  display: block;
+  font-size: 48px;
+  background: linear-gradient(90deg, #ff8c00, #e4405f, #8a2be2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.description {
+  margin-top: 20px;
+  font-size: 18px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.trusted {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #aaa;
+}
+
+.reviews {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.review {
+  margin: 0 10px;
+  font-size: 16px;
+  color: #ffd700;
+}
